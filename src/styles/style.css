@@ -1,0 +1,71 @@
+.title {
+  font-size: 1.8rem;
+  color: #EEEEEE;
+  line-height: 10px;
+}
+
+.sub_title {
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  line-height: 12px;
+}
+
+.sub_title_span {
+  font-size: 1.2rem;
+  color: #00ADB5;
+}
+
+.navigate_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+}
+
+.nav_container {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sub_title_container {
+  margin: 12px 50px;
+}
+
+.navigate_icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-right: 25px;
+}
+
+.icons_container {
+  height: auto;
+  margin: auto 10px;
+}
+
+.icons {
+  font-size: 20px;
+  color: white !important;
+}
+
+icons::before {
+  content: "";
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #222831;
+}/*# sourceMappingURL=style.css.map */

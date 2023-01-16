@@ -1,0 +1,37 @@
+.icons_container {
+  height: auto;
+  margin: auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  gap: 6px;
+  justify-content: center;
+}
+
+.text {
+  color: #EEEEEE;
+}
+
+.icons {
+  display: flex;
+  font-size: 20px;
+  color: #EEEEEE;
+}
+
+icons::before {
+  content: "";
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.icons:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=icons.css.map */

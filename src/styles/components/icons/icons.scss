@@ -1,0 +1,40 @@
+@import "../abstract/variables";
+
+.icons_container {
+  height: auto;
+  margin: auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+
+  gap: 6px;
+  justify-content: center;
+}
+
+.text {
+  color: $font-title-color;
+}
+
+.icons {
+  display: flex;
+  font-size: 20px;
+  color: $font-title-color;
+}
+
+icons::before {
+  content: "";
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.icons:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+@import "../abstract/variables";
+
+.sub_title {
+  color: $font-title-color;
+  font-size: $font-sub-title-size;
+  line-height: 12px;
+}
+
+.sub_title_span {
+  font-size: $font-sub-title-size;
+  color: $font-sub-title-color;
+}

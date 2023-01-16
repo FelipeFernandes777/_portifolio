@@ -1,0 +1,12 @@
+@import "./components/title/title";
+@import "./components/subtitle/subtitle";
+@import "./components/navigate/navigate.scss";
+@import "./components/icons/icons.scss";
+@import "./components/abstract/functions";
+@import "./components/abstract/variables";
+
+* {
+  @include reset-page;
+  font-family: "Poppins", sans-serif;
+  background-color: $bg-color-primary;
+}
