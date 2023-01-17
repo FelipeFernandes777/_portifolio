@@ -3,6 +3,10 @@
   font-size: 1.2rem;
   line-height: 12px;
 }
+.sub_title:hover {
+  transition: 0.5s ease 0.1s;
+  transform: translateY(-7px);
+}
 
 .sub_title_span {
   font-size: 1.2rem;

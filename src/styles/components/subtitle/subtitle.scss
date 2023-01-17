@@ -4,6 +4,11 @@
   color: $font-title-color;
   font-size: $font-sub-title-size;
   line-height: 12px;
+
+  &:hover {
+    transition: 0.5s ease 0.1s;
+    transform: translateY(-7px);
+  }
 }
 
 .sub_title_span {

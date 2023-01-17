@@ -2,16 +2,20 @@ import Image from "../components/Image/Image";
 import Navigate from "../components/Navigate/Navigate";
 import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
+import front from '../assets/image/front.png';
 
 export default function About() {
   return (
-    <>
+    <div className="about_main_content">
       <div className="navigate">
         <Navigate />
       </div>
       <div className="about_container">
         <div className="image_info_container">
-          <Image src="#" alt="Foto Pessoal" />
+          <Image
+            src={front}
+            alt="Foto Pessoal"
+          />
         </div>
         <div className="container_info_text">
           <div className="title_container">
@@ -25,6 +29,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
