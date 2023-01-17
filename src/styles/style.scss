@@ -7,6 +7,8 @@
 @import "./components/image/image.scss";
 @import "./components/abstract/functions";
 @import "./components/abstract/variables";
+@import "./components/cards/cards.scss";
+@import "./components/projects/projects.scss";
 
 * {
   @include reset-page;

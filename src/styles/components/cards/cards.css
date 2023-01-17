@@ -1,0 +1,14 @@
+.cards_main_container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards_main_container .img_card {
+  width: 200px;
+  height: 200px;
+  border-radius: 14px;
+  background-color: transparent !important;
+}/*# sourceMappingURL=cards.css.map */

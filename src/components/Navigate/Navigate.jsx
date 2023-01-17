@@ -12,9 +12,9 @@ export default function Navigate() {
           <SubTitle subTitle="Felipe " subTextColor="Fernandes" />
         </div>
         <div className="navigate_icons_container">
-          <Icons href="#" text="Projetos" icons={<VscCode />} />
-          <Icons href="#home" text="Home" icons={<IoMdHome />} />
-          <Icons href="#contact" text="Contato" icons={<IoMdContact />} />
+          <Icons href="#projetos" text="Projetos" icons={<VscCode />} />
+          <Icons href="#sobre" text="Home" icons={<IoMdHome />} />
+          <Icons href="#contato" text="Contato" icons={<IoMdContact />} />
         </div>
       </nav>
     </div>

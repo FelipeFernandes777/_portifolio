@@ -15,7 +15,8 @@
   line-height: 12px;
 }
 .sub_title:hover {
-  transition: transform 0.5s ease 0.1s translateY(-7px);
+  transition: 0.5s ease 0.1s;
+  transform: translateY(-7px);
 }
 
 .sub_title_span {
@@ -73,10 +74,7 @@ a {
   justify-content: center;
 }
 a:hover {
-  transition-timing-function: ease;
-  transition-duration: 0.6s;
-  transition-delay: 0.1s;
-  transition-property: all;
+  transition: 0.5s ease 0.1s;
   transform: translateY(-10px);
   border-bottom: 1px solid #00adb5;
 }
@@ -106,12 +104,31 @@ icons::before {
   font-size: 1.15rem;
 }
 
+@-webkit-keyframes slideLeft {
+  from {
+    transform: translateX(-130px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(-130px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 .about_main_content:hover {
   transition-timing-function: ease;
   transition-duration: 0.2s;
 }
 
 .about_container {
+  -webkit-animation: slideLeft 0.6s ease-in 0.2s 1 normal both;
+          animation: slideLeft 0.6s ease-in 0.2s 1 normal both;
   display: flex;
   height: 80vh;
   width: 100%;
@@ -163,6 +180,22 @@ icons::before {
   width: 50%;
   line-height: 30px;
   text-align: justify;
+}
+
+.icons_info_container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+  height: auto;
+  justify-content: space-between;
+  gap: 10px;
+}
+.icons_info_container .icons {
+  font-size: 25px;
+  line-height: 12px;
+  color: #eeeeee;
 }
 
 * {
