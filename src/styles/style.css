@@ -1,18 +1,18 @@
 .title {
-  font-size: 1.8rem;
-  color: #EEEEEE;
+  font-size: 2.3rem;
+  color: #eeeeee;
   line-height: 10px;
 }
 
 .sub_title {
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 1.2rem;
   line-height: 12px;
 }
 
 .sub_title_span {
   font-size: 1.2rem;
-  color: #00ADB5;
+  color: #00adb5;
 }
 
 .navigate_container {
@@ -31,7 +31,11 @@
 }
 
 .sub_title_container {
-  margin: 12px 50px;
+  padding: 15px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigate_icons_container {
@@ -39,17 +43,36 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+  padding: 15px;
   margin-right: 25px;
 }
 
 .icons_container {
   height: auto;
   margin: auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  gap: 6px;
+  justify-content: center;
+}
+
+.text {
+  color: #eeeeee;
 }
 
 .icons {
+  display: flex;
   font-size: 20px;
-  color: white !important;
+  color: #eeeeee;
 }
 
 icons::before {
@@ -60,6 +83,19 @@ icons::before {
 
 .icons:hover {
   cursor: pointer;
+}
+
+.text_main {
+  color: #eeeeee;
+  font-size: 1.15rem;
+}
+
+.about_container {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 * {

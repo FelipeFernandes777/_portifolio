@@ -1,5 +1,10 @@
 .title {
-  font-size: 1.8rem;
-  color: #EEEEEE;
+  font-size: 2.3rem;
+  color: #eeeeee;
   line-height: 10px;
+  height: auto;
+}
+
+.title_color {
+  color: #00adb5;
 }/*# sourceMappingURL=title.css.map */

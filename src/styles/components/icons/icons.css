@@ -17,13 +17,13 @@ a {
 }
 
 .text {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 .icons {
   display: flex;
   font-size: 20px;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 icons::before {
